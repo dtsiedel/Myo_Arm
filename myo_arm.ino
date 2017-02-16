@@ -63,7 +63,8 @@ void Finger::moveFinger(int location)
 //which for now is nothing
 int getMuscleActivity()
 {
-  analogRead(myoPin);
+  int in = analogRead(myoPin);
+  in = constrain(in, myoMin, myoMax);
 }
 
 void setup() 
