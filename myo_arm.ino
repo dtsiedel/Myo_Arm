@@ -68,6 +68,17 @@ int getMuscleActivity()
   in = constrain(in, myoMin, myoMax);
 }
 
+//TODO
+//dynamically find bounds of myo input
+//on startup by playing a tone to indicate 
+//the user should rest or flex their arm
+//should be more accurate and customizable
+//than trying to hardcode it
+void getInputBounds()
+{
+  
+}
+
 void setup() 
 {
   if(EXITONSTART) exit(0); //quit before doing anything if EXIT flag is set
@@ -77,6 +88,8 @@ void setup()
   {
     fingers[i].attach(i+2);
   }
+
+  getInputBounds();
 
 }
 
