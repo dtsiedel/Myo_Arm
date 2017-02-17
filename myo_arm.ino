@@ -18,9 +18,9 @@ private:
 
 int myoPin = A0; //placeholder
 int myoMin = 0; //placeholder
-int myoMax = 1024; //placeholder
+int myoMax = 1023; //placeholder
 Finger fingers[5]; 
-int Finger::length = 0; //initialize static 
+int Finger::length = 0; //initialize static, I think it defaults to zero but this is to be safe
 #define EXITONSTART 0 //flag for exiting before doing anything, for debugging
 
 
@@ -30,7 +30,7 @@ void Finger::attach(int a_pin)
   pin = a_pin;
   switch(pin) //FINGER PINS (which arduino out to plug into)
   {
-    case 2: name = "PALM"; lowerBound = 60; upperBound = 130; break;
+    case 2: name = "PALM"; lowerBound = 60; upperBound = 130; break; //not sure if I want palm to be included or not
     case 3: name = "THUMB"; lowerBound = 135; upperBound = 180; break;
     case 4: name = "INDEX";  lowerBound = 46; upperBound = 115;break;
     case 5: name = "MIDDLE"; lowerBound = 65; upperBound = 150; break;
@@ -61,6 +61,7 @@ void Finger::moveFinger(int location)
 //reads from the myoPin, and does any
 //work that is needed to correct that
 //which for now is nothing
+//later might need some smoothing or something
 int getMuscleActivity()
 {
   int in = analogRead(myoPin);
