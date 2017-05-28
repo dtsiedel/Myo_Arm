@@ -5,4 +5,4 @@ Uses myoelectric sensors to detect transdermal electric signals that are indicat
 Naturally a production version would use stronger and lighter materials than the balsa wood of this arm (likely 3D-printed materials like ABS or carbon fiber), for reliability and comfort of the user.
 
 See it in action:
-[![Robot Hand](https://www.github.com/dtsiedel/Myo_Arm/blob/master/setup.png?raw=true)](https://www.youtube.com/watch?v=Ygyv5tHT9do&feature=youtu.be) 
+[![Robot Hand](https://www.github.com/dtsiedel/Myo_Arm/blob/master/setup.png)](https://www.youtube.com/watch?v=Ygyv5tHT9do&feature=youtu.be) 
