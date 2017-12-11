@@ -6,4 +6,4 @@ Additionally, uses force sensitive resistors to detect when the hand is touching
 
 Naturally a production version would use stronger and lighter materials than the balsa wood of this arm (likely 3D-printed materials like ABS or carbon fiber), for reliability and comfort of the user.
 
-<a href="https://www.youtube.com/watch?v=VBaf7skSzEs"><img src="https://github.com/dtsiedel/Myo_Arm/blob/master/arm.gif" height="300" width="200"></a>
+<a align='center' href="https://www.youtube.com/watch?v=VBaf7skSzEs"><img src="https://github.com/dtsiedel/Myo_Arm/blob/master/arm.gif" height="300" width="200"></a>
