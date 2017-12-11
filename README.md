@@ -9,3 +9,5 @@ Naturally a production version would use stronger and lighter materials than the
 See it in action:
 
 ![Demo](https://github.com/dtsiedel/Myo_Arm/blob/master/arm.gif)
+
+<a href="url"><img src="https://github.com/dtsiedel/Myo_Arm/blob/master/arm.gif" align="left" height="300" width="200"></a>
