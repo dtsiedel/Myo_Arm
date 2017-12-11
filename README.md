@@ -7,3 +7,5 @@ Naturally a production version would use stronger and lighter materials than the
 See it in action:
 
 [![Robot Hand](https://img.youtube.com/vi/AeSHxDT650s/1.jpg)](https://youtu.be/AeSHxDT650s) 
+
+[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
