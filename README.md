@@ -8,4 +8,4 @@ Naturally a production version would use stronger and lighter materials than the
 
 See it in action:
 
-![Demo](https://github.com/dtsiedel/Myo_Arm/blob/master/arm.gif | width=100)
+![Demo](https://github.com/dtsiedel/Myo_Arm/blob/master/arm.gif | =250x250)
